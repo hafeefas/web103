@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+About this web app: **👉🏿 The project's mission is to build a frontend application that supports CRUD (Create, Read, Update, Delete) operations for managing a list of content creators. These creators can be from various platforms like Twitch, YouTube, Instagram, TikTok, or others. The app should allow users to add, view, edit, and delete content creators. Each content creator should have a name, URL (link to their channel or page), and a short description. Optionally, you can also include an image URL for each creator.**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Time spent: **👉🏿 40** hours
 
-## Available Scripts
+## Required Features
 
-In the project directory, you can run:
+The following **required** functionality is completed:
 
-### `npm start`
+<!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
+- [x] **A logical component structure in React is used to create the frontend of the app**
+- [x] **At least five content creators are displayed on the homepage of the app**
+- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **API calls use the async/await design pattern via Axios or fetch()**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Each content creator has their own unique URL**
+- [x] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can delete a content creator**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following **optional** features are implemented:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [ ] Picocss is used to style HTML elements
+- [x] The content creator items are displayed in a creative format, like cards instead of a list
+- [x] An image of each content creator is shown on their content creator card
 
-### `npm test`
+The following **additional** features are implemented:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [ ] List anything else that you added to improve the site's functionality!
 
-### `npm run build`
+## Video Walkthrough
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here's a walkthrough of implemented required features:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  👉🏿 GIF tool here
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Notes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Layout Design: During this project, I encountered difficulties in creating an appealing and responsive layout. Achieving the right alignment, spacing, and overall visual design was a challenge. I had to experiment with CSS and layout frameworks to find the best solution.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+View Single Creators Page: During the development of the 'View Creator' page, I faced difficulties in retrieving and displaying data from Supabase. To address this, I looked into Supabase's documentation, utilized console logging for troubleshooting, and reached out to fellow developers for insights. These efforts proved fruitful, enabling me to successfully beat the challenge and gain valuable experience in working with external APIs and databases. This experience underscored the significance of reading through documentation and the support of the developer community in my journey.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+Copyright [👉🏿 2023] [👉🏿 Hafeefa Sultan]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> http://www.apache.org/licenses/LICENSE-2.0
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
