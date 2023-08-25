@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [ added screenshots of the site so the site's visuals can be easily seen by clicking on the images folder inside of the code ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
