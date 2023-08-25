@@ -108,7 +108,7 @@ function ViewCreator() {
       </div>
       <div style={styles.rightColumn}>
         <h1>{creator.name}</h1>
-        <p>{creator.url}</p>
+        <p>  <a href={creator.url} target="_blank" rel="noopener noreferrer" style={{color:"lightblue"}}> {creator.url} </a></p>
         <p>{creator.description}</p>
 
       <div>
