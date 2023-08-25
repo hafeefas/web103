@@ -1,3 +1,5 @@
+# WEB103 Prework - *👉🏿 Creatorverse*
+
 About this web app: **👉🏿 The project's mission is to build a frontend application that supports CRUD (Create, Read, Update, Delete) operations for managing a list of content creators. These creators can be from various platforms like Twitch, YouTube, Instagram, TikTok, or others. The app should allow users to add, view, edit, and delete content creators. Each content creator should have a name, URL (link to their channel or page), and a short description. Optionally, you can also include an image URL for each creator.**
 
 Time spent: **👉🏿 40** hours
