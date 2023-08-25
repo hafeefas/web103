@@ -9,15 +9,19 @@ function Card(props) {
     const hasUserData = name || description || url || imageURL;
 
     const handleDelete = async () => {
-        try {
-            let deletion = await supabase.from('creators').delete().eq('id', id);
-            console.log(deletion, "deleting supabase id was successful")
-            window.location.href = '/';
-
-        } catch (error) {
-            console.log("deletion failed.")
+        const shouldDelete = window.confirm("Are you sure you want to delete this content creator?");
+    
+        if (shouldDelete) {
+            try {
+                let deletion = await supabase.from('creators').delete().eq('id', id);
+                console.log(deletion, "deleting supabase id was successful")
+                window.location.href = '/';
+            } catch (error) {
+                console.log("deletion failed.")
+            }
         }
     }
+    
 
     return (
         <div style={styles.card}>
@@ -52,6 +56,7 @@ const styles = {
         backgroundColor: "#fff",
         boxShadow: "0 0 5px rgba(0, 0, 0, 0.2)",
         maxWidth: "40%",
+        width:"300px",
         marginTop: "50px",
         marginRight: "1%",
         height: "auto",

@@ -28,7 +28,7 @@ const styles = {
     backgroundImage: "url('https://img.freepik.com/free-vector/realistic-galaxy-background-with-stars_52683-69202.jpg?w=2000&t=st=1692914517~exp=1692915117~hmac=533a1965e328e6df4d8ff2b972ecdbc2a3c51c957f45296fbec16dfba40d4231')",
     backgroundRepeat:"no-repeat",
     backgroundSize:"cover",
-    paddingTop: "315px",
+    paddingTop: "355px",
     paddingRight: "10px",
   },
   logo: {

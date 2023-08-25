@@ -83,7 +83,7 @@ function AddCreator() {
 
   return (
     <div style={styles.formContainer}>
-    <h1>Add a Content Creator</h1>
+    <h1 style={{textDecoration:"underline"}}>Add a Content Creator</h1>
     <form style={styles.form} onSubmit={handleSubmit}>
       <div style={styles.inputGroup}>
         <label style={styles.label}>Name Of the Creator:</label>

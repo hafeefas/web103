@@ -5,15 +5,16 @@ import { supabase } from '../client';
 const sharedStyles = {
   input: {
     display: "flex",
-    marginBottom:"20px",
     padding: '20px',
     borderRadius: '4px',
     border: '1px solid #ccc',
     backgroundColor: 'white',
+    color: "black",
     width: '1000px',
     maxWidth: '100%',
     margin: '0 auto',
-    color: "black"
+    marginTop: '20px', // Add top margin for spacing
+    marginBottom: '40px', // Add bottom margin for spacing
   },
   button: {
     backgroundColor: '#007bff',
@@ -90,7 +91,7 @@ function EditCreator() {
 
   return (
     <div style={{ color: "white" }}>
-      <h1 style={{ padding: "20px", paddingBottom: "20px" }}>Edit Content Creator</h1>
+      <h1 style={{ padding: "20px", paddingBottom: "20px" , textDecoration:"underline"}}>Edit Content Creator</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Name:</label>

@@ -31,15 +31,19 @@ function ViewCreator() {
   }
 
   const handleDelete = async () => {
-    try {
-      let deletion = await supabase.from('creators').delete().eq('id', id);
-      console.log(deletion, "deleting supabase id was successful");
-      window.location.href = '/';
-
-    } catch (error) {
-      console.log("deletion failed.");
+    const confirmed = window.confirm("Are you sure you want to delete this content creator?");
+    
+    if (confirmed) {
+      try {
+        let deletion = await supabase.from('creators').delete().eq('id', id);
+        console.log(deletion, "deleting supabase id was successful");
+        window.location.href = '/';
+      } catch (error) {
+        console.log("deletion failed.");
+      }
     }
   };
+  
 
   const styles = {
     container: {
