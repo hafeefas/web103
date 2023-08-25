@@ -22,7 +22,7 @@ const sharedStyles = {
     border: 'none',
     borderRadius: '4px',
     cursor: 'pointer',
-    padding:"16px"
+    padding: "16px"
   },
 };
 
@@ -36,7 +36,9 @@ function EditCreator() {
     imageURL: '',
   });
 
+  // eslint-disable-next-line no-unused-vars
   const [creator, setCreator] = useState(null);
+
 
   useEffect(() => {
     async function fetchCreator() {
@@ -91,7 +93,7 @@ function EditCreator() {
 
   return (
     <div style={{ color: "white" }}>
-      <h1 style={{ padding: "20px", paddingBottom: "20px" , textDecoration:"underline"}}>Edit Content Creator</h1>
+      <h1 style={{ padding: "20px", paddingBottom: "20px", textDecoration: "underline" }}>Edit Content Creator</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Name:</label>
@@ -139,13 +141,13 @@ function EditCreator() {
             placeholder="Enter the image URL (optional)"
           />
         </div>
-        <div style={{margin:"26px", padding:"16px"}}>
-        <button type="submit" style={sharedStyles.button}>Update Content Creator</button>
-      <Link to={`/view/${id}`} style={{color:"white", margin:"10px"}}>Back to View</Link>
-      </div>
+        <div style={{ margin: "26px", padding: "16px" }}>
+          <button type="submit" style={sharedStyles.button}>Update Content Creator</button>
+          <Link to={`/view/${id}`} style={{ color: "white", margin: "10px" }}>Back to View</Link>
+        </div>
       </form>
     </div>
-  
+
 
   );
 }
