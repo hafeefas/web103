@@ -1,5 +1,4 @@
 {
-    "homepage":"https://github.com/hafeefas/web103",
     "name": "web103",
     "version": "0.1.0",
     "private": true,
@@ -16,12 +15,13 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "predeploy":"npm run build",
-        "deploy":"gh-pages -d build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
+    
     "eslintConfig": {
         "extends": [
             "react-app",
@@ -41,6 +41,8 @@
         ]
     },
     "devDependencies": {
-        "gh-pages": "^6.0.0"
+        "gh-pages": "^6.0.0",
+        "@supabase/supabase-js": "^2.33.1"
+
     }
 }
