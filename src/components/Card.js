@@ -30,7 +30,7 @@ function Card(props) {
                     <h2 style={styles.title}>{name}</h2>
                     <p style={styles.description}>{description}</p>
                     <p style={styles.url}>{url}</p>
-                    {imageURL && <img src={imageURL} alt={name} style={styles.image} />}
+                    {imageURL && <img src={imageURL} alt={name} style={{...styles.image, width:"200px"}} />}
                 </>
             ) : (
                 <p style={styles.noData}>There are no users currently registered in the database.</p>
@@ -52,16 +52,18 @@ const styles = {
     card: {
         border: "2px solid #ccc",
         borderRadius: "8px",
-        padding: "20px",
-        backgroundColor: "#fff",
+        color:"white",
+        
+        // padding: "20px",
+        // backgroundColor: "#fff",
         boxShadow: "0 0 5px rgba(0, 0, 0, 0.2)",
-        maxWidth: "40%",
-        width:"300px",
-        marginTop: "50px",
-        marginRight: "1%",
-        height: "auto",
-        marginBottom: "20px",
-        float:"left"
+        // maxWidth: "40%",
+        width:"97%",
+        // marginTop: "50px",
+        // marginRight: "1%",
+        // height: "auto",
+        // marginBottom: "20px",
+        // float:"left"
     },
     title: {
         fontSize: "24px",
@@ -78,9 +80,9 @@ const styles = {
         marginBottom: "10px",
     },
     image: {
-        width: "100%", // Make sure the image takes full width of the card
+        width: "100%",
         height: "auto",
-        marginBottom: "10px", // Add some spacing below the image
+        marginBottom: "10px", 
     },
     noData: {
         fontStyle: "italic",

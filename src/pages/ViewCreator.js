@@ -47,6 +47,7 @@ function ViewCreator() {
 
   const styles = {
     container: {
+      marginTop:"10px",
       color: "white",
       display: "flex",
       position: "absolute",
@@ -57,7 +58,7 @@ function ViewCreator() {
     },
     rightColumn: {
       flex: 13,
-      padding: "200px 250px",
+      padding: "100px 250px",
       maxWidth: "550px",
       margin: "0 auto",
       fontSize:"x-large"

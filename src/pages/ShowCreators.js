@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Card from '../components/Card';
-import AddCreator from './AddCreator';
 import { supabase } from '../client';
 
 function ShowCreators() {
@@ -26,29 +25,13 @@ function ShowCreators() {
     fetchCreators();
   }, []); // Run once when the component mounts
 
-  // Define inline styles
-
-  const addButtonStyle = {
-    backgroundColor: '#007bff', // Customize the background color
-    color: '#fff', // Customize the text color
-    border: 'none',
-    padding: '10px 20px',
-    borderRadius: '5px',
-    fontSize: '16px',
-    cursor: 'pointer',
-  };
-
-  const addButtonHoverStyle = {
-    backgroundColor: '#0056b3', // Customize the hover background color
-  };
-
   return (
     <div>
       <h1 style={{color:"white"}}>Welcome to the Creators page!</h1>
       <Link to="/AddCreator">
-        <button style={addButtonStyle} onMouseOver={() => {}} onMouseOut={() => {}}>
+        {/* <button style={addButtonStyle} onMouseOver={() => {}} onMouseOut={() => {}}>
           Add Creator
-        </button>
+        </button> */}
       </Link>
 
       {console.log(creators, 'creators')}
