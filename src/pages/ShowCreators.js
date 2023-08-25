@@ -5,6 +5,7 @@ import { supabase } from '../client';
 
 function ShowCreators() {
   const [creators, setCreators] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const { id } = useParams();
 
   useEffect(() => {
