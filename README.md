@@ -58,7 +58,7 @@ GIF created with ...  👉🏿 GIF tool [here](https://github.com/hafeefas/web10
 
 Layout Design: During this project, I encountered difficulties in creating an appealing and responsive layout. Achieving the right alignment, spacing, and overall visual design was a challenge. I had to experiment with CSS and layout frameworks to find the best solution.
 
-View Single Creators Page: During the development of the 'View Creator' page, I faced difficulties in retrieving and displaying data from Supabase. To address this, I looked into Supabase's documentation, utilized console logging for troubleshooting, and reached out to fellow developers for insights. These efforts proved fruitful, enabling me to successfully beat the challenge and gain valuable experience in working with external APIs and databases. This experience underscored the significance of reading through documentation and the support of the developer community in my journey.
+View Single Creators Page: During the development of the 'View Creator' page, I faced difficulties in retrieving and displaying data from Supabase. To address this, I looked into Supabase's documentation, used console logging for troubleshooting, and reached out to fellow developers for insights. These efforts proved fruitful, enabling me to successfully beat the challenge and gain valuable experience in working with external APIs and databases. This experience showed me the significance of reading through documentation and the support of the developer community in my journey.
 
 ## License
 
