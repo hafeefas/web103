@@ -40,6 +40,7 @@ Here's a walkthrough of implemented required features:
 
 More images can be found in the images folder of the project!
 
+<br> 
 
 THIS IS THE YOUTUBE VIDEO WALKTHROUGH:
 [![Video Walkthrough](https://img.youtube.com/vi/Jsyp5wua1hE/0.jpg)](https://youtu.be/Jsyp5wua1hE)
