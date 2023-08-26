@@ -36,6 +36,8 @@ Here's a walkthrough of implemented required features:
 
 👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough'  width='' alt='Video Walkthrough' />
 
+<img width="1268" alt="homepage" src="https://github.com/hafeefas/web103/assets/99234946/4fe9914b-c9d2-4808-9b3d-b433a613f63f">
+
 Images can be found in the images folder of the project!
 
 [![Video Walkthrough](https://img.youtube.com/vi/Jsyp5wua1hE/0.jpg)](https://youtu.be/Jsyp5wua1hE)
