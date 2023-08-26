@@ -42,9 +42,8 @@ Images can be found in the images folder of the project!
 
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
-
-https://github.com/hafeefas/web103/assets/99234946/cbf00f63-ce6f-40af-8428-e6c035f47f08
+GIF created with ...  👉🏿 GIF tool [here](https://github.com/hafeefas/web103/assets/99234946/cbf00f63-ce6f-40af-8428-e6c035f47f08
+)
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
